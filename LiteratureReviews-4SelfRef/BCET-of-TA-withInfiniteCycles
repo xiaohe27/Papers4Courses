@@ -1,0 +1,33 @@
+The main contribution of this paper is proposing a modification to an existing
+algorithm for computing the BCET (best-case execution time) in Timed Automata, so that
+termination can always be guaranteed even if infinite cycles are present in the automata.
+
+The authors used concrete examples to show that for timed automata with infinite cycles,
+the algorithm for computing  proposed by Behrmann et al may not terminate. Then the authors analyzed 
+the underlying defects of Behrmann et al 's algorithm that caused the non-termination; and finally
+they provided a solution to the reported problem and proved its correctness. Generally speaking, 
+this paper presents their achievements gradually in a reasonable order so that it makes the readers
+tend to believe the authors' work really improve the state-of-the-art algorithm for computing BCET.
+
+At the beginning, the authors briefly introduced how the most model checking tools apply 
+extrapolation algorithms to guarantee termination of timed automata analysis. Then they 
+pointed out why these techniques cannot be directly used in some interesting problems such as BCET,
+and in this background, the authors naturally introduced Behrmann et al's algorithm (based on which
+the authors of this paper proposed the modification) for computing minimum execution time of TA (timed automata). 
+In the end of the first part, the authors identified the key difficulties of developing a solution
+to the minimum/maximum termination time problem using zone approach as: (1) adapting classical extrapolation
+operations to guarantee termination. (2) adapting classical canonicalization operation to keep information of
+extra clock accurate (the concept of extra clock was proposed by Behrmann et al which is not reset during 
+the analysis so that the total execution time of the automata can be precise). The summary of key difficulties
+and key contribution is concise but expressive. 
+ 
+There is a typo in the last paragraph of the introduction part: should be `The latter` instead of `The later`.
+
+The second part provided the basic definitions used in the paper. In this part, the authors also detailed how
+to implement clock zone concept using DBMs (difference bound matrices), so that infinitely many concrete states
+can be converted to a finitely many abstract states. Definition 6 abstracts the implementation of extrapolation
+function, which is good; but it also makes people raise a question: why there is no formal or informal definition for 
+canonicalization function? The canonicalization function is equally important, in fact, the naive implementation of
+canonicalization function is responsible for non-termination of Behrmann et al's algorithm in situations where
+infinite cycles exist. 
+
