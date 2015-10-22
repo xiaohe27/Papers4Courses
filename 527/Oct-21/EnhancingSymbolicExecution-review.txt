@@ -1,0 +1,13 @@
+Review for the paper:
+Enhancing Symbolic Execution with Veritesting
+
+1. Good point:
+Propose a new technique veritesting which combines the strengths of Dynamic Symbolic Execution (DSE) and Static Symbolic Execution (SSE) so that higher code coverage can be achieved, more bugs can be detected, while overheads is still low.
+
+The prensented system MergePoint that incorporates veritesting alternates between DSE and SSE to harness the benefits of both while mitigating path explosion in dynamic approaches and solver blowup in static approaches.
+
+2. Bad point:
+During evaluation, only compare Veritesting with DSE, but not SSE.
+
+3. Question:
+Is the suggested system also applicable to Windows system, and also non-binary files? 
