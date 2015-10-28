@@ -1,0 +1,5 @@
+1. Good point: The constraints solvers are highly demanding components in program testing, analysis and verification but few effective and sufficiently expressive off-the-shelf string constraints solvers exist. This paper proposed a string constraints solver over fixed-size string variables, called HAMPI, which is both efficient and expressive, to bridge the gap.
+
+2. Bad point: No solution found by the suggested fixed-size string solver does not imply the absence of solutions, it only indicates there is no solution for the given size.
+
+3. Question: Is HAMPI able to find very large attack string? In the paper, only the attack strings whose sizes are less than or equal to 6 are involved.
