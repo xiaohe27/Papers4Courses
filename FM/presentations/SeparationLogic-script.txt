@@ -21,8 +21,11 @@ Let's look at the simple example:
 At that time, popular P.L. like C/C++ have already had dynamic programming features like pointers, which are powerful, but programs with those features are also hard to analyze via existing verification techniques. Therefore, John C. Reynolds, Peter O'Hearn together with other researchers, developed an extension of Hoare Logic called Separation Logic to deal with the programs that use shared mutable data structure.
 
 
-Now, I will describe how it extends Hoare logic in three aspects
+Now, I will describe more details about how separation logic extends Hoare logic in three aspects
 to facilatate the reasoning of pointer programs.
+
+//////////
+
 
 I will then demonstrate how to use separation logic to verify properties
 in a list-reversing program and a tree-copying procedure.
