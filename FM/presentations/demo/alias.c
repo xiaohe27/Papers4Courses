@@ -19,17 +19,19 @@ cout << "a1 is " << a1 <<endl;
 cout << "b1 is " << b1 <<endl;
 
 cout << "\n\nAliasing example" <<endl;
+cout << "\nUsing new int to allocate space for an int\n\n" << endl;
 
-int a2 = 5;
-int &b2 = a2;
+int *a2 = new int;
+*a2 = 5;
+int *b2 = a2;
 
-cout << "a2 is " << a2 <<endl;
-cout << "b2 is " << b2 <<endl;
+cout << "a2 is " << *a2 <<endl;
+cout << "b2 is " << *b2 <<endl;
 
-b2 = 22;
+*b2 = 22;
 
-cout << "after assignment b2 = 22" << endl;
-cout << "a2 is " << a2 <<endl;
-cout << "b2 is " << b2 <<endl;
+cout << "after assignment *b2 = 22" << endl;
+cout << "a2 is " << *a2 << endl;
+cout << "b2 is " << *b2 << endl;
 }
 
