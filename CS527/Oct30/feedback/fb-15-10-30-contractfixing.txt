@@ -1,21 +1,24 @@
 (1 = very poor and 5 = excellent)
 
-1. Presentation/talk is well-prepared and organized    1 2 3 4 5
+1. Presentation/talk is well-prepared and organized    5
 
-2. Presenter encourages audience interaction and       1 2 3 4 5
+2. Presenter encourages audience interaction and       2
 effectively responds to questions and comments
 
-3. The introduction provided a general description of  1 2 3 4 5
+3. The introduction provided a general description of  4
 the problem
 
-4. Presenter was enthusiastic (and encouraged me to    1 2 3 4 5
+4. Presenter was enthusiastic (and encouraged me to    3
 read the paper)
 
-5. Speaking skills: volume, pace, well-enunciated,     1 2 3 4 5
+5. Speaking skills: volume, pace, well-enunciated,     4
 coherent, understandable, confident posture,
 maintains eye contact, ...
 
-6. My overall rating of this presentation is           1 2 3 4 5
+6. My overall rating of this presentation is           4
 
 7. Describe one technical term that you learned in this talk
 (2-3 sentences)
+Automated Fixing is the term that I learned today.
+I mainly focus on debugging manually before, but I may consider 
+to use the automated fixing tool some day in the future.
