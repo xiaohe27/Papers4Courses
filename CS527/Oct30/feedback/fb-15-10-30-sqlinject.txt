@@ -1,0 +1,34 @@
+(1 = very poor and 5 = excellent)
+
+1. Presentation demonstrates knowledge/understanding   4
+of the paper
+
+2. Presentation was informative to those who did not   5
+read the paper
+
+3. The slides were well-prepared (use of pictures,     5
+animations, font size, etc.)
+
+4. There was a clear summary and conclusions           4
+
+5. My overall rating of this presentation is           4
+
+6. What are some parts of the paper that could have been covered
+more in the presentation? (2-3 sentences)
+
+The evaluation part, especially the limitation of the proposed tool.
+The time is limited, so it is understandable to give priority to other parts.
+
+
+7. What are the parts of the paper that were well covered in the
+presentation? (2-3 sentences)
+
+Different kinds of attacks. I also learned a lot. Previously I only know
+the simple SQL injection. Through this presentation, I know more about first order
+and second order XSS attack.
+
+
+
+
+
+
