@@ -1,0 +1,21 @@
+1. Good point.
+The paper proposed two random search strategies that sample the path space
+of a program under test which achieve much better branch coverage. 
+It is good because compared with other approaches, like random sampling the 
+input space or concolic testing with traditional DFS strategy, the approach
+"random branch search" not only provide much higher branch coverage, but also
+at a faster rate.
+
+2. Bad point.
+The programming model is too low level, like assembly language in some sense.
+It is hard to encode more sophisticated language constructs/features
+(like side-effecting, which has been eliminated from the programming model
+adopted by this paper). Though it is declared to be extensible, I still
+doubt its potential capability in tests generation for the programs written
+in high-level OO languages. 
+
+3. Question.
+How to interpret the conditional statement in the programming model (section 2.1)?
+I got confused on the true/false branch.
+
+How to encode loops? Is that similar to assemly language?
