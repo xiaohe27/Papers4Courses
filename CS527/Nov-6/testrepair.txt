@@ -1,0 +1,18 @@
+1. Good point
+This paper addresses a very interesting and practical issue in software engineering:
+repairing broken tests when SUT(system under test) evolves. The suggested approach
+employs symbolic execution techniques to improve its predecessor namely ReAssert so that
+the failures related to expected values can be repaired with higher quality: including 
+those which are computed rather than declared directly as literals. The results are 
+appealing because it closely follows the requirements that ensure all tests pass, 
+minimal changes to test code, SUT unchanged and no new bugs introduced.
+
+2. Bad point
+There is no complete, ready-to-use symbolic test repair tool implemented in this paper.
+As claimed in the paper, it is challenging to make the symbolic engine and test repair 
+tool work together if they are implemented in different languages. Which indicates that
+the success in one place cannot be easily applied elsewhere.
+
+3. Question
+Java is at least as popular as .Net, why the state-of-the-art symbolic engine
+for java is far less powerful than Pex?
