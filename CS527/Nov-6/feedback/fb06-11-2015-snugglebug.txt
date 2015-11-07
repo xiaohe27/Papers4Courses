@@ -1,0 +1,25 @@
+(1 = very poor and 5 = excellent)
+
+1. Presentation/talk is well-prepared and organized    3
+
+2. Presenter encourages audience interaction and       3
+effectively responds to questions and comments
+
+3. The introduction provided a general description of  4
+the problem
+
+4. Presenter was enthusiastic (and encouraged me to    4
+read the paper)
+
+5. Speaking skills: volume, pace, well-enunciated,     4
+coherent, understandable, confident posture,
+maintains eye contact, ...
+
+6. My overall rating of this presentation is           4
+
+7. Describe one technical term that you learned in this talk
+(2-3 sentences)
+
+Backward symbolic analysis is the new term that I learned from
+this talk; and I also learned some strengths (like only exlore related paths etc.)
+and weaknesses (can not get help from concrete execution etc.) of this approach.

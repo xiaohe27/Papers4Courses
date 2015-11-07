@@ -1,0 +1,33 @@
+(1 = very poor and 5 = excellent)
+
+1. Presentation demonstrates knowledge/understanding   4
+of the paper
+
+2. Presentation was informative to those who did not   3
+read the paper
+
+3. The slides were well-prepared (use of pictures,     3
+animations, font size, etc.)
+
+4. There was a clear summary and conclusions           4
+
+5. My overall rating of this presentation is           3
+
+6. What are some parts of the paper that could have been covered
+more in the presentation? (2-3 sentences)
+
+Maybe more about how the symbolic execution technique can be 
+incorporated into the test pair tool ReAssert so that its previous 
+weaknesses in handling expected values can be improved. However, 
+it is understandable because there is no implementation given in
+the paper...
+
+7. What are the parts of the paper that were well covered in the
+presentation? (2-3 sentences)
+The research questions asked in the paper and their answers.
+These parts are the main take-away of the paper.
+
+
+
+
+

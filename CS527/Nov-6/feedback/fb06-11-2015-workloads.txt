@@ -1,0 +1,25 @@
+(1 = very poor and 5 = excellent)
+
+1. Presentation/talk is well-prepared and organized    3
+
+2. Presenter encourages audience interaction and       2
+effectively responds to questions and comments
+
+3. The introduction provided a general description of  3
+the problem
+
+4. Presenter was enthusiastic (and encouraged me to    1
+read the paper)
+
+5. Speaking skills: volume, pace, well-enunciated,     2
+coherent, understandable, confident posture,
+maintains eye contact, ...
+
+6. My overall rating of this presentation is           3
+
+7. Describe one technical term that you learned in this talk
+(2-3 sentences)
+
+Some technical terms like stateless/stateful.
+I also learned some fact that the tool Hadoop does not
+check semantic requirements on user code...
