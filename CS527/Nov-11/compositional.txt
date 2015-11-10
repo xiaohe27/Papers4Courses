@@ -1,5 +1,22 @@
 1. Good point
+This paper clearly identified the strengths and weaknesses of test generation tool
+DART; and it then proposed a new more scalable algorithm based on DART, which 
+preserved its advantages over traditional static test generation approach and
+pure random testing. Its main advantage over DART is in the inter-procedural analysis;
+instead of exploring all the feasible execution paths caused by method invocation 
+one by one, it computes function summary based on the constraints over the function's
+inputs and output, and then reuse the summary when testing higher level functions which 
+invoke the target function. By this approach, a class of feasible execution paths can be
+explored at one shot.
 
 2. Bad point
+The evaluation is a little weak. Only a case study comparing SMART and DART,
+no other participants from similar techniques or different techniques for 
+test generation. It gave me a feeling that the main focus of the tool is just to
+beat DART.
 
 3. Question
+In order to simplify the presentation, the paper assumes no recursive calls 
+inside the program under test; Whether the feature of recursion is supported in
+their implementation? Whether the DART system also has the same setting w.r.t. 
+recursion?
