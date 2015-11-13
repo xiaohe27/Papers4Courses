@@ -1,0 +1,16 @@
+Minhao Zhan
+
+1) Good problem
+The paper address the potential time-consuming problem with existing null dereferences detection tools. Developer need to pay a lot of effort and time to prevent such error from happening. By presenting a new tool that improve the process, it is possible to ease the burden of developers.
+
+2) Bad solution
+The researchers propose the non-null-by-default semantics by researching on 5 open source projects. They found that majority of them are not supposed to be null by default. So they presented the solution above. It is too unreliable to conclude this solution by just sampling 5 open source projects. Even the majority satisfy the solution, we could not omit the edge cases that are null in the real world. This would could lots of problems.
+
+3) Question: What if the not-null object have the null value by accident, does it return a error or just discard the value?
+
+//my ans
+the JML JDT tool proposed in this paper is able to perform the checking
+both at compile time and run-time. If it is able to capture the potential 
+null pointer issue at compile time, it will warn the programmer. 
+The paper did not talk much about the implementation of the tool, and did not
+provide info about how to handle the violation of non-null property at run-time.
