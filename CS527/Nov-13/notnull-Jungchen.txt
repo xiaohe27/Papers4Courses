@@ -1,0 +1,21 @@
+1. Choose one good point in either problem, solution, or evaluation and describe why you find it good. (Is the problem important? Is the solution interesting? Is the evaluation convincing?)
+
+One good point is that their report is pretty worthy-to-read because there are lots of tool used in this paper and they also use non-null annotations to detect potential null pointer exceptions. Besides, the authors also introduce the special case such that the class EnglishGreeting extends Greeting, which constraining a method return or parameter type to be non-null for an overriding method. This requires adding annotations to the overridden method declarations as well. I believe this is a new information for me and it is needed to be cared about when using such technique in the future.
+
+2. Choose one bad point in either problem, solution, or evaluation and describe why you find it bad. (Is the problem unimportant? Is the solution trivial? Is the evaluation weak?)
+
+I believe this report would be a little bit out-of-date, e.g., JDK 8 removes a legacy annotation processing tool, named apt. I am not sure which part is not useful now but it is still a pretty nice report.
+
+3. List one question for discussion. 
+
+Could runtime assertion checking (RAC) actually check that the properties hold when provided any test input, which is assumed to previously exist?
+
+4. [Optional] Describe how reading the paper benefits your course project. (Can the same problem have a different solution? Can the same solution be applied to a different problem? Would a bigger evaluation be appropriate? ...)
+
+This paper is not quite related to my project but it introduces me a lot. Before reading this paper, I haven’t found there are such non-null annotations can be used in JAVA program.
+
+[Notes]
+The authors propose a non-null-by-default semantics. This reduces the burden of annotating for developers. Since this paper was publish in 2006 and referred to JAVA 5, I search the latest JAVA version then find that JAVA 8 introduces two important changes to annotations designed to help developers produce better code and improve the accuracy of automated code analysis to verify that quality.
+
+Reference:
+https://blogs.oracle.com/java-platform-group/entry/java_8_s_new_type

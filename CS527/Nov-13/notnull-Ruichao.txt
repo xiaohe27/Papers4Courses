@@ -1,0 +1,12 @@
+Name: Ruichao Qiu
+NetID: rqiu3
+
+Good Point:
+The good point of this paper is the proposal that reference types be non-null by default in Java. The advantage of this proposal is that it can better matches general practice, so the majority of declarations will be correctly constrained to be non-null. And also, non-null by default can lighten the annotation burden of developers. Besides, the new default would be safer. Because processing of null generally requires extra programming logic and code to be handled correctly. With the new default, an annotation now explicitly alerts developers that null values need to be considered. If a developer delays or forgets to annotate a declaration as nullable, this will at worst
+limit functionality rather than introducing unwanted behavior. In the paper, they also describe an implementation of the new default in a customized version of the Eclipse 3.3 JDT Core, which supports non-null types. 
+
+Bad Point:
+The bad point of this paper is the concern of representative of source files to be used in the study. With five applications used in the study, it is hard to cover all application domains. Another thing is that modern object-oriented programming best practices promote such as a disciplined use of null with the Null Object pattern recommended as an alternative. However, not all Java code is written following recommended best practices. For example, some of the classes declare their fields as public rather than using getters and setters, making it very difficult to ascertain, in the absence of supporting documentation, whether a field was intended to be non-null. So the application used in the study should cover both OO pattern (Null Object pattern) and non-OO pattern codes.
+
+Question:
+In the paper, the authors only conduct the study over 5 sample applications. How to select more java applications for study in order to cover more application domains? How to select the representative applications in each domain?
