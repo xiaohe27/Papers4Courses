@@ -1,0 +1,5 @@
+I do love the topic. Null-pointer exception is really painful in OOP languages. I cannot remember how much time I spent on debugging the related issues. Besides, I love the way how the author wrote the paper. It is very well organized with real life examples.
+
+One thing I don't really like is that therer are too much trivial information presented in this paper. I think the paper could be more focused on some point.
+
+Question: Are there any application to other languages?
