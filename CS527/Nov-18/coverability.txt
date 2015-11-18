@@ -1,0 +1,9 @@
+1. Good point
+The paper made use of Z3 SMT solver in solving the coverability problem for Petri nets, and achieved better overall success rate on proving safety properties compared to other state-of-the-art tools.
+
+2. Bad point
+In evaluation section, only five benchmarks were used; and one of the benchmarks (namely Bug-tracking) has significant impact on the final results. In fact, if we only consider the first 3 benchmarks, the proposed tool was the worst among all the tools! This makes the overall result not very convincing.
+
+3. Question
+The paper mentioned that the proposed technique was not complete, but was that sound?
+In the evaluation, only safe examples were used, though it made sense for checking the degree of completeness; however, I am curious about its soundness, i.e. whether the tool may provide safety proof for the unsafe program.  
