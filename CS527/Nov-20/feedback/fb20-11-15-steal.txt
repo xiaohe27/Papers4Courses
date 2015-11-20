@@ -1,0 +1,26 @@
+(1 = very poor and 5 = excellent)
+
+1. Presentation/talk is well-prepared and organized    4
+
+2. Presenter encourages audience interaction and       4
+effectively responds to questions and comments
+
+3. The introduction provided a general description of  4
+the problem
+
+4. Presenter was enthusiastic (and encouraged me to    4
+read the paper)
+
+5. Speaking skills: volume, pace, well-enunciated,     4
+coherent, understandable, confident posture,
+maintains eye contact, ...
+
+6. My overall rating of this presentation is           4
+
+7. Describe one technical term that you learned in this talk
+(2-3 sentences)
+
+Work stealing is the new term that I learned from the talk. It is a well-studied dynamic load balancing strategy which
+unleashes the computing power of parallel computing systems, so that the idle computing resources can be thoroughly exploited. 
+Each time a computer node becomes idle, by following the provided algorithm, it can steal computing tasks from other nodes, 
+which improves the efficiency of computation.

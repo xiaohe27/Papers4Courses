@@ -1,0 +1,21 @@
+(1 = very poor and 5 = excellent)
+
+1. Presentation/talk is well-prepared and organized    4
+
+2. Presenter encourages audience interaction and       4
+effectively responds to questions and comments
+
+3. The introduction provided a general description of  4
+the problem
+
+4. Presenter was enthusiastic (and encouraged me to    3
+read the paper)
+
+5. Speaking skills: volume, pace, well-enunciated,     3
+coherent, understandable, confident posture,
+maintains eye contact, ...
+
+6. My overall rating of this presentation is           3
+
+7. Describe one technical term that you learned in this talk
+Infeasible code is the new technical term that I learned. It is the code that will not be 
