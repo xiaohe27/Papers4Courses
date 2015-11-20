@@ -1,0 +1,10 @@
+Netid: hexiao2
+
+1. Good point
+This paper introduced the value flow simulation, which was a new framework for inter-procedural analysis; Compared to other tools for value flow analysis at that time, the approach suggested in the paper was both scalable, and able to do context-sensitive, and path-sensitive value flow analysis. Given a value of interest, symbolic states with the same value alias set but different concrete execution information can be merged, which decreased the state space to be explored.
+
+2. Bad point
+There are not enough details about the experiments and evaluation. No comparison between the proposed tool and other tools, seems that the experiment was simply designed to demonstrate the proposed tool. Although the paper claimed other approaches either did not scale up or not path sensitive, the designed experiment did not try to validate this argument.
+
+3. Question
+Whether the tool ESP used in the paper is complete or not? It is not sound because it has false positives; however, does it have any false negatives? i.e. whether it is able to capture all the errors? In the experiment, all the reported errors are false positives, and this is quite suspecious.
