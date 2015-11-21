@@ -1,27 +1,27 @@
 (1 = very poor and 5 = excellent)
 
-1. Presentation demonstrates knowledge/understanding   1 2 3 4 5
+1. Presentation demonstrates knowledge/understanding   4
 of the paper
 
-2. Presentation was informative to those who did not   1 2 3 4 5
+2. Presentation was informative to those who did not   4
 read the paper
 
-3. The slides were well-prepared (use of pictures,     1 2 3 4 5
+3. The slides were well-prepared (use of pictures,     4
 animations, font size, etc.)
 
-4. There was a clear summary and conclusions           1 2 3 4 5
+4. There was a clear summary and conclusions           4
 
-5. My overall rating of this presentation is           1 2 3 4 5
+5. My overall rating of this presentation is           4
 
 6. What are some parts of the paper that could have been covered
 more in the presentation? (2-3 sentences)
-
-
-
+The algorithm for inter-procedural value flow analysis.
+and may be something brief introduction of transfer function for value alias sets.
 
 
 7. What are the parts of the paper that were well covered in the
 presentation? (2-3 sentences)
+The concept of value alias sets and value flow simulation was explained quite well through a running example. The presenter also compared the analysis result produced by standard data-flow analysis and the one proposed in the paper to demonstrate the strengths of the proposed value-flow simulation approach.
 
 
 
