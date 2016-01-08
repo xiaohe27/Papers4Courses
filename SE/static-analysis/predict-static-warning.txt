@@ -1,0 +1,55 @@
+1. What is the motivation:
+*what is the problem that the paper addresses/tries to solve?
+Static analysis warnings reported by static analysis tool have
+false positive warnings and legitimate warnings may not be acted on
+
+*why is the problem important?
+waste time/resources to manually classify the warnings.
+
+*why are the previous solutions not adequate?
+Too expensive to build the predictive models (from all factors).
+Prediction is not very precise.
+
+2. The proposed solution to the identified problem.
+logistic regression models that predict whether a warning is false positive
+and whether it will be handled by the developers. 
+Use a screening methodology to quickly
+discard factors with low predictive power and cost-effectively build
+predictive models.
+
+starting from many factors and small warnings set
+and use screening algorithm to get rid of 
+the ones that do not have good predictive power and then use the predictive
+model on large data set(manually check the results) to evalutate
+the model's precision (compare the true answer and the answer provided by the 
+predictive model).
+
+3. Major contributions of the paper.
+ - a methodology for screening factors
+
+ - a set of measurable factors for static analysis warnings and
+   programs and the results of screening these factors in this context
+ 
+ - logistic regression models for predicting both false positives
+	and actionable warnings
+
+4. Research question answered by the paper:
+E.G.
+*Make the claim of proposed solution to question form.
+*How better is it compared to existing solutions?
+using screening factors methods:
+much lower cost in building model, and nearly the same (
+or even higher precision) when compared to the approach of 
+building models from all factors.
+
+higher cost in building models and higher precision when
+compared to the approach of model building with known fixed factors.
+
+*Which part of the solution plays most important role in outperforming 
+other solutions?
+
+5. The metrics used to evaluate the proposed solution, and
+   therefore answer the research questions.
+
+   - cost of building predictive model
+   - accuracy of prediction
