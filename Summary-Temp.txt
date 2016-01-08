@@ -1,0 +1,18 @@
+1. What is the motivation:
+*what is the problem that the paper addresses/tries to solve?
+*why is the problem important?
+*why are the previous solutions not adequate?
+
+2. The proposed solution to the identified problem.
+
+3. Major contributions of the paper.
+
+4. Research question answered by the paper:
+E.G.
+*Make the claim of proposed solution to question form.
+*How better is it compared to existing solutions?
+*Which part of the solution plays most important role in outperforming 
+other solutions?
+
+5. The metrics used to evaluate the proposed solution, and
+   therefore answer the research questions.
